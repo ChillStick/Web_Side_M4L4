@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&family=Tektur:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    padding: 10px 5%;
+    background-color: rgba(126, 115, 222, 0.56);
+    font-family: "Tektur", sans-serif;
+    width: 100%
+}
+
+footer {
+    background-color: #02021a;
+    text-align: end;
+}
+
+main {
+    background-color: #fafafa;
+}
+
+main, footer{
+    font-family: "Saira", sans-serif;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+img {
+    width: 380px;
+    height: 380px;
+    border-radius: 20px
+}
+
+a{
+    text-decoration: none;
+    color: #02021a;
+    margin: 0 10px;
+}
+
+p {
+    margin-right: 7px;
+}
+
+.intro {
+    padding: 5%;
+    color: #02021a;
+    font-size: 25px;
+    text-align: center;
+}
+
+#text {
+    background-color: rgb(135, 125, 228);
+    padding: 10px 5%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#end, #foot{
+    padding: 1opx 0px;
+    font-size: 25px;
+    text-align: center;
+    color: #02021a;
+}
+
+#foot {
+    color: #fafafa;
+}
+
+.emptiness {
+    width: 10%;
+    display: inline-block;
+}
+
+#text > *{
+    font-size: 26px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 450px;
+    color: #02021a; /* Cambia el color del texto a negro para mejor legibilidad */
+}
+
+.break {
+    height: 50px;
+}
+
+.break_extra {
+    height: 150px;
+}
+
+.link_1, .link_2, .link_3 {
+    display: inline-block;
+    color: #fafafa;
+    background-color: #46417a;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.music {
+    text-align: center;
+    font-size: 42px;
+}
